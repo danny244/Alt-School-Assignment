@@ -1,0 +1,135 @@
+/* ASIDE NAVBAR */
+aside {
+      background-color: #fff;
+      color: #333;
+      padding: 1rem;
+      text-align: center;
+
+      position: fixed;
+      right: 0.8rem;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 0.5rem;
+      border-radius: 20px;
+      width: 2rem;
+
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 700ms;
+
+      filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+aside nav ul {
+      list-style-type: none;
+
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+}
+
+
+aside nav ul li a {
+      color: #333;
+      text-decoration: none;
+      font-size: 10px;
+      font-weight: bold;
+
+      opacity: 0;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 500ms;
+
+      padding: 5px 30px;
+
+}
+
+aside:hover {
+      width: 7rem;
+}
+
+aside:hover nav ul li a {
+      opacity: 100;
+}
+
+aside nav ul li a:hover {
+      background-color: #fff;
+      filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+
+      border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* MAIN AND ITS CONTENTS */
+main {
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+      padding-top: 1.5rem;
+
+      padding-bottom: 5rem;
+
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+}
+
+
+main section {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+}
+
+main section div {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+}
+
+main section ol {
+      padding-left: 1rem;
+}
+
+@media (max-width: 750px) {
+      main {
+            margin-bottom: 5rem;
+      }
+
+
+}
+
+
+
+footer > .button_top {
+      display: flex;
+      gap: 0.7rem;
+      align-items: center;
+}
+
+footer > .button_top > a {
+      width: 1.5rem;
+      height: 1.5rem;
+
+      border-radius: 50%;
+
+      background-color: #fff;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+footer > .button_top > a > img {
+      width: 0.8rem;
+
+      transform: rotate(180deg);
+}

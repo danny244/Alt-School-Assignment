@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="/general/style.css">
+      <link rel="shortcut icon" href="/images/logo.webp" type="image/x-icon">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+      <title>Alt Assignment - Biography</title>
+</head>
+
+<body>
+
+      <header>
+            <nav>
+                  <a href="/index.html">
+                        <img src="/images/logo.webp" alt="logo">
+                  </a>
+
+                  <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/form/index.html">Forms</a></li>
+                        <li><a href="/table/index.html">Tables</a></li>
+                        <li><a href="/media/index.html">Media</a></li>
+                  </ul>
+
+                  <button popovertarget="menu" popovertargetaction="show">
+                        <img class="menu" src="/images/menu.png" alt="logo">
+                  </button>
+
+            </nav>
+      </header>
+
+
+      <!-- navigation aside -->
+      <nav role="aside" id="menu" popover="" class="sm-aside">
+            <button popovertarget="menu" popovertargetaction="close">
+                  x
+            </button>
+
+
+            <ul>
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="/form/index.html">Forms</a></li>
+                  <li><a href="/table/index.html">Tables</a></li>
+                  <li><a href="/media/index.html">Media</a></li>
+            </ul>
+
+
+      </nav>
+
+
+      <!-- Aside section -->
+      <aside id="#aside">
+            <nav>
+                  <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#why">Why</a></li>
+                        <li><a href="#Goals">Goals</a></li>
+                  </ul>
+            </nav>
+      </aside>
+
+
+      <main>
+
+            <!-- About Selction -->
+            <section id="about" class="about">
+                  <h1>About Me</h1>
+
+                  <div>
+                        <p><strong>Name:</strong> Idowu Daniel</p>
+                        <p><strong>Alt School ID:</strong>
+                              <b id="textToCopy">ALT/SOE/024/1181</b>
+                        </p>
+
+                        <p><strong>Biography:</strong> I am a passionate and dedicated individual with a strong interest
+                              in
+                              technology and software development. I have a keen interest in continuous learning and
+                              personal
+                              development, i enjoy collaborating with others to build innovative solutions, My goal is
+                              to use
+                              my skills to create impactful software that can make a difference in people's lives.</p>
+                  </div>
+            </section>
+
+
+            <!-- Why i joined alt school section -->
+            <section id="why">
+                  <h3>Why i Joined Alt School</h2>
+
+                        <ol>
+                              <li>To gain practical skills in software development and engineering that are in high
+                                    demand in the tech industry.</li>
+                              <li>To move ahead in my career by gaining the knowledge needed to work in tech.</li>
+                              <li>To practice things i learn through real projects, not just theory.</li>
+                              <li>To meet and learn with others who have the same goals, and get help from teachers and
+                                    experts.</li>
+                              <li>To benefit from a hands-on, project-based learning approach that emphasizes real-world
+                                    applications and problem-solving.</li>
+                              <li>To be part of a vibrant and supportive community that encourages collaboration,
+                                    creativity, and continuous improvement.</li>
+                        </ol>
+            </section>
+
+
+            <!-- Goals section -->
+            <section id="Goals">
+                  <h3>My Goals for Alt School of Engineering Program</h3>
+
+                  <ol>
+                        <li>Master Coding Skills</li>
+                        <li>Build Real Projects</li>
+                        <li>Learn Modern Technologies</li>
+                        <li>Improve Problem-Solving</li>
+                        <li>Prepare for a Tech Career</li>
+                        <li>Collaborate with Peers</li>
+                        <li>Build a Strong Foundation</li>
+                  </ol>
+            </section>
+
+      </main>
+
+
+      <footer>
+            <p>&copy; 2024 Daniel. All rights reserved.</p>
+
+          <div class="button_top">
+            <button popovertarget="mypopover" id="copyButton" type="button">Copy AltSchool ID to Clipboard</button>
+
+            <a href="#">
+                  <img src="./home-images/down-arrow.png" alt="arrow">
+            </a>
+          </div>
+
+            <div id="mypopover" popover="manual" role="alert" class="alert top-right">
+                  ID Copied
+            </div>
+      </footer>
+
+      <script defer src="./index.js"></script>
+      <script defer src="/general/index.js"></script>
+
+</body>
+
+</html>
