@@ -360,6 +360,8 @@ visibility: hidden;
             min-height: calc(100svh - 8rem);
 
             padding-top: 0;
+
+            overflow-x: hidden;
       }
 
       main .form_section > img {
